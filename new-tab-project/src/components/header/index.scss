@@ -1,0 +1,44 @@
+.header{
+    height: 48px;
+    *{
+        height: 40px;
+    }
+    .nav{
+        display: flex;
+        position: fixed;
+        right: 0px;
+        // overflow: hidden;
+        .nav-item{
+            margin-right: 14px;
+            div{
+                
+                a{
+                    display: block;
+                    background-color: var(--dark3);
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    line-height: 46px;
+                    text-align: center;
+                    margin: 0 auto;
+                    &:hover{ 
+                        background-color: var(--light0);
+                        svg{
+                            color: var(--dark3);
+                        }
+                    }
+                    svg{
+                        width: 40px;
+                        height: 40px;
+                        font-size: 40px;
+                        margin-bottom: 24px;
+                        // margin-right: 40px;
+                        color: var(--light0);
+                    }
+                }
+            }
+            
+        }
+    }
+
+}

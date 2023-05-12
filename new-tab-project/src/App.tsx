@@ -3,11 +3,12 @@
 // import viteLogo from '/vite.svg'
 import 'reset.css'
 import '@/assets/styles/theme.scss'
-import './App.css'
+import './App.scss'
 import IndexRoute from './components/routes/IndexRoute'
 import Footer from './components/footer/footer'
 import { Link } from 'react-router-dom'
-import SearchBox from './components/search-box'
+
+import Header from './components/header/header'
 function App() {
     // const [count, setCount] = useState(0)
     
@@ -17,7 +18,7 @@ function App() {
             <Link to={'user'}>user</Link>|
             <Link to={'about'}>about</Link>|
             <Link to={'set'}>set</Link>|
-            <SearchBox/>
+            <Header/>
             <IndexRoute/>
             <Footer/>
         </div>

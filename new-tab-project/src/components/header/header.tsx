@@ -1,8 +1,10 @@
+import './index.scss'
+import Nav from './nav'
 export default function Header() {
 
     return (
         <div className="header">
-            header
+            <Nav/>
         </div>
     )
 }
