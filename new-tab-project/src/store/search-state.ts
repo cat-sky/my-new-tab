@@ -16,14 +16,11 @@ import { error } from "console";
 
 const defaultEngines=[
     {
-        name:"baidu",
-        url:'https://www.baidu.com/#ie={inputEncoding}&wd=%s',
+        name:'bing',
+        url:'https://www.bing.com/search?q=%s&PC=U316&FORM=CHROMN',
     },{
         name:'google',
         url:'{google:baseURL}search?q=%s&{google:RLZ}{google:originalQueryForSuggestion}{google:assistedQueryStats}{google:searchFieldtrialParameter}{google:iOSSearchLanguage}{google:prefetchSource}{google:searchClient}{google:sourceId}{google:contextualSearchVersion}ie={inputEncoding}',
-    },{
-        name:'bing',
-        url:'https://www.bing.com/search?q=%s&PC=U316&FORM=CHROMN',
     },{
         name:'bilibili',
         url:'https://search.bilibili.com/all?keyword=%s&from_source=nav_search_new',

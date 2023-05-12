@@ -36,8 +36,5 @@ export default function SearchEngineSwitch(props: {
                 })
             }
         </ul>
-        <div>
-            {count}
-        </div>
     </span>
 }
